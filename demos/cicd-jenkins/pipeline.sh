@@ -15,3 +15,6 @@
 # limitations under the License.
 
 mvn -ntp install -f ./cicd-demo-v1/pom.xml -Ptest -Dcommit='N/A' -Dbranch='N/A' -Dauthor=devrel -Ddeployment.suffix='-devrel'
+
+npm install
+npm run docs
